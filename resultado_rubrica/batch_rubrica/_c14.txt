@@ -1,0 +1,4 @@
+# json e time já importados na célula 0
+print(f"Modelo: {MODELO_GEMINI}")
+print(f"Prompts a enviar: {len(prompts)}")
+print(f"CSV de saída: {NOME_ARQUIVO_CSV}")
