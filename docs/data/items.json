@@ -1,0 +1,460 @@
+{
+  "meta": {
+    "n_items": 45,
+    "n_per_cell": 5,
+    "seed": 123,
+    "source_csv": "resultado_rubrica\\prova-tecnologia-results-1500-rubrica-16dim-consolidado.csv"
+  },
+  "items": [
+    {
+      "item_id": "TEC-0025",
+      "modelo": "gemma4",
+      "prompt_variant": "base",
+      "disciplina": "SUAP018548 - Arquitetura de Computadores:Bacharel em Ciência da Computação, Bacharelado, 3º Período, Turno Integral (2025)",
+      "pergunta": "Conte de 1 a 20₁₀ nas seguintes bases:a) Base 8b) Base 6c) Base 5d) Base 3",
+      "resposta_aluno": "Base 81, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21, 22, 23, 24Base 61, 2, 3, 4, 5, 10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32Base 51, 2, 3, 4, 10, 11, 12, 13, 14, 20, 21, 22, 23, 24, 30, 31, 32, 33, 34, 40Base 31, 2, 10, 11, 12, 20, 21, 22, 100, 101, 102, 110, 111, 112, 120, 121, 122, 200, 201, 202",
+      "explicacao": "Parabéns, a sequência está correta para a base 5.",
+      "feedback": "Você acertou a sequência para a Base 5, mas as demais bases apresentaram valores incorretos e incompletos. Revise a conversão de cada número de 1 a 20 para as bases 8, 6 e 3."
+    },
+    {
+      "item_id": "TEC-0042",
+      "modelo": "gemma4",
+      "prompt_variant": "base",
+      "disciplina": "06262 - T04 - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Descreva com suas palavras a função do processador.",
+      "resposta_aluno": "O processador é como um cérebro, ele recebe e interpreta comandos e realiza a operação dos softwares. Também faz todas as operações necessárias para o funcionamento do computador.",
+      "explicacao": "Parcialmente correto. O processador executa instruções de software, mas a resposta é um pouco vaga. Poderia especificar que ele processa dados e executa algoritmos conforme as instruções do software.",
+      "feedback": "Você acertou ao comparar o processador a um cérebro e mencionar a interpretação de comandos; contudo, especifique que ele processa dados e executa algoritmos."
+    },
+    {
+      "item_id": "TEC-0088",
+      "modelo": "gemma4",
+      "prompt_variant": "base",
+      "disciplina": "Montagem e Manutenção",
+      "pergunta": "Para que serve um processador",
+      "resposta_aluno": "Calcular e processar tudo do computador",
+      "explicacao": "",
+      "feedback": "A resposta captura a função central, mas seria mais preciso especificar que o processador executa cálculos e processa dados. Para aprimorar, mencione a execução de instruções e o processamento de informações."
+    },
+    {
+      "item_id": "TEC-0115",
+      "modelo": "gemma4",
+      "prompt_variant": "base",
+      "disciplina": "INTRODUÇÃO À INFORMÁTICA 2020.2",
+      "pergunta": "Qual a diferença de hardware e software?",
+      "resposta_aluno": "Software, de uma maneira geral, é a parte intocável de uma máquina desenvolvida por códigos e linguagens de programação. Ele é formado pelo conjunto de instruções dadas a um computador, que devem ser seguidas e executadas por um mecanismo, de modo que ele execute determinada tarefa. Enquanto o Hardware pode ser definido como os dispositivos físicos que compõem o computador, ou seja, é tudo aquilo que esteja conectada a este equipamento e possa ser fisicamente tocado.",
+      "explicacao": "",
+      "feedback": "Você definiu bem o software como o conjunto de instruções e o hardware como os componentes físicos, mas precisa estabelecer a relação de dependência entre ambos. Sugere-se mencionar que o hardware executa as instruções fornecidas pelo software."
+    },
+    {
+      "item_id": "TEC-0131",
+      "modelo": "gemma4",
+      "prompt_variant": "base",
+      "disciplina": "SUAP018548 - Arquitetura de Computadores:Bacharel em Ciência da Computação, Bacharelado, 3º Período, Turno Integral (2025)",
+      "pergunta": "Qual é o significado de cada um dos quatro estados no protocolo MESI?",
+      "resposta_aluno": "Modified (Modificado): A linha de cache foi alterada e é diferente da memória principal.Exclusive (Exclusivo): A linha de cache é igual à da memória principal e não está presente em outras caches.Shared (Compartilhado): A linha de cache está presente em várias caches e é idêntica à memória.Invalid (Inválido): A linha de cache está desatualizada e não pode ser utilizada.",
+      "explicacao": "Correto! O estado Modified indica que a linha de cache foi modificada e difere da memória principal.",
+      "feedback": "Você descreveu corretamente os estados Modified, Exclusive, Shared e Invalid, demonstrando bom domínio conceitual. Para maior precisão, detalhe que o estado Shared implica que a linha é idêntica à memória e pode ser compartilhada."
+    },
+    {
+      "item_id": "TEC-0196",
+      "modelo": "gemma4",
+      "prompt_variant": "hattie",
+      "disciplina": "SUAP018548 - Arquitetura de Computadores:Bacharel em Ciência da Computação, Bacharelado, 3º Período, Turno Integral (2025)",
+      "pergunta": "Converta os números hexadecimais abaixo para decimal:a) Cb) 9Fc) D52d) 67Ee) ABCD",
+      "resposta_aluno": "a) C = 12b) 9F = 159c) D52 = 3410d) 67E = 1662e) ABCD = 43981",
+      "explicacao": "Correto! D52 em hexadecimal é igual a 3410 em decimal.",
+      "feedback": "Você acertou a conversão de D52 para 3410, mas os cálculos para C, 9F, 67E e ABCD estão incorretos. Revise a fórmula de conversão hexadecimal para decimal, aplicando potências de 16 corretamente."
+    },
+    {
+      "item_id": "TEC-0264",
+      "modelo": "gemma4",
+      "prompt_variant": "hattie",
+      "disciplina": "SUAP018548 - Arquitetura de Computadores:Bacharel em Ciência da Computação, Bacharelado, 3º Período, Turno Integral (2025)",
+      "pergunta": "Quais são as principais características de um SMP?",
+      "resposta_aluno": "O SMP, que é tipo um sistema com vários processador junto, serve pra deixar o computador mais rápido. Os processador tudo trabalha ao mesmo tempo, sabe? Eles usa a mesma memória, e roda tudo num sistema só.Tipo assim, se tem muita coisa pra fazer, ele divide o trabalho entre os processador, pra nenhum ficar sobrecarregado. Isso ajuda bastante em coisa pesada, tipo jogo, programa de edição, ou servidor.E eles se conversa usando a mesma memória, não precisa ficar mandando dado por rede, essas coisa. Tudo é feito junto, mais rápido e organizado (na maioria das vez...).",
+      "explicacao": "Exatamente! A distribuição equilibrada da carga de trabalho entre os processadores é uma das principais vantagens do SMP.",
+      "feedback": "Você identificou corretamente o conceito de múltiplos processadores compartilhando memória, mas precisa detalhar a sincronização e o acesso unificado aos recursos. Sugiro incluir menção ao conceito de memória compartilhada e como isso otimiza a execução de tarefas complexas."
+    },
+    {
+      "item_id": "TEC-0268",
+      "modelo": "gemma4",
+      "prompt_variant": "hattie",
+      "disciplina": "06262 - T04 - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Quais são as principais vantagens e desvantagens de usar fibra óptica em uma rede?",
+      "resposta_aluno": "Vantagens: -Alta velocidade; -Mais segura; -Suporta grandes volumes de dados. Desvantagens: -Custo mais alto; -Fragilidade; -Instalação mais complexa.",
+      "explicacao": "Correto! A fibra óptica oferece altas velocidades de transmissão de dados devido à sua capacidade de transportar sinais de luz com baixa perda.",
+      "feedback": "Você listou corretamente alta velocidade e custo elevado, mas faltou mencionar a baixa perda de sinal. Acrescente a menção à transmissão por sinais de luz para completar a análise."
+    },
+    {
+      "item_id": "TEC-0299",
+      "modelo": "gemma4",
+      "prompt_variant": "hattie",
+      "disciplina": "06262 - T04 - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Quantos bits são necessários para representar um dígito binário?",
+      "resposta_aluno": "1 bit",
+      "explicacao": "A opção 1 bit está correta! Um dígito binário (também chamado de bit) é a unidade fundamental em sistemas digitais e pode representar dois estados: 0 ou 1. Portanto, apenas um bit é necessário para representá-lo.",
+      "feedback": "Você identificou corretamente que um bit é a unidade básica, mas é importante mencionar que ele representa os estados 0 ou 1. Para aprimorar, detalhe que essa representação de dois estados é o conceito central."
+    },
+    {
+      "item_id": "TEC-0317",
+      "modelo": "gemma4",
+      "prompt_variant": "hattie",
+      "disciplina": "Fall_24_CT-365_SE",
+      "pergunta": "What is the significance of architectural patterns in software development? Can't a software be developed without a standard architecture?",
+      "resposta_aluno": "Architectural patterns are significant because they provide a proven blueprint, which can then be used to build and design software systems. It is possible to develop softwares without utilizing standard architectures but doing so results in chaotic and difficult-to-maintain code which is difficult to modify and update later on. Therefore, architectural patterns combat this problem by providing a structued approach to the software development process.",
+      "explicacao": "You correctly identify that without a standard architecture, software can become complicated and challenging to maintain, with issues like tight coupling and duplication making it difficult to adapt to changing requirements.",
+      "feedback": "Você acertou ao mencionar que padrões fornecem um projeto estruturado, mas deve detalhar problemas como acoplamento e duplicação. Acrescente exemplos de como padrões mitigam a dificuldade de adaptação a requisitos mutáveis."
+    },
+    {
+      "item_id": "TEC-0359",
+      "modelo": "gemma4",
+      "prompt_variant": "nicol",
+      "disciplina": "06262 - AG - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Defina com suas palavras qual a diferença de memória principal e secundária.",
+      "resposta_aluno": "A memória primária guarda memória mais leves e os conteúdos em sua maioria vão pra ela. Já a segundaria guarda os arquivos mais pesados e tem o processador mais lento e devagar de se acessar",
+      "explicacao": "O termo correto é 'memória secundária', não 'segundaria'. Atenção à ortografia para evitar ambiguidades.",
+      "feedback": "Você capturou a ideia de armazenamento de dados, mas precisa corrigir a grafia para 'secundária' e diferenciar melhor as funções. Sugiro revisar como cada tipo de memória interage com o processador."
+    },
+    {
+      "item_id": "TEC-0412",
+      "modelo": "gemma4",
+      "prompt_variant": "nicol",
+      "disciplina": "06262 - CZ - INTRODUÇÃO À INFORMÁTICA - T01",
+      "pergunta": "O que é uma VPN (Virtual Private Network)?",
+      "resposta_aluno": "É uma rede de comunicação privada, criando um conexão segura e criptografada entre a internet e o dispositivo.",
+      "explicacao": "A definição está incompleta. Uma VPN não é apenas uma rede de comunicação privada, mas sim uma tecnologia que permite a comunicação segura sobre redes públicas.",
+      "feedback": "Você acertou ao mencionar a conexão segura e criptografada, mas é preciso enfatizar que a VPN opera sobre redes públicas. Para melhorar, inclua que ela permite comunicação segura em redes abertas."
+    },
+    {
+      "item_id": "TEC-0417",
+      "modelo": "gemma4",
+      "prompt_variant": "nicol",
+      "disciplina": "SUAP018004 - Química III:Técnico em Química Integrado ao Ensino Médio, Integrado, 3º Período, Turno Integral (2025)",
+      "pergunta": "Os elementos químicos na tabela periódica estão organizados em ordem crescente de quê?",
+      "resposta_aluno": "eletronegatividade",
+      "explicacao": "No trecho da resposta, você mencionou que os elementos químicos estão organizados em ordem crescente de eletronegatividade, o que está incorreto. A tabela periódica organiza os elementos em ordem crescente de número atômico.",
+      "feedback": "Você identificou a eletronegatividade, mas a organização correta é pelo número atômico. Revise o conceito de organização da tabela periódica para maior precisão."
+    },
+    {
+      "item_id": "TEC-0463",
+      "modelo": "gemma4",
+      "prompt_variant": "nicol",
+      "disciplina": "06262 - CZ - INTRODUÇÃO À INFORMÁTICA - T01",
+      "pergunta": "Qual é o significado de GUI?",
+      "resposta_aluno": "graphical user interface, em português significa \"interface gráfica do utilizador.\"",
+      "explicacao": "Parabéns, você acertou a definição de GUI e sua tradução para o português.",
+      "feedback": "Você definiu corretamente GUI como 'interface gráfica do utilizador', demonstrando bom conhecimento do conceito. Para enriquecer, mencione também a função principal dessa interface."
+    },
+    {
+      "item_id": "TEC-0466",
+      "modelo": "gemma4",
+      "prompt_variant": "nicol",
+      "disciplina": "06262 - AG - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Qual é o termo usado para descrever a menor unidade de cor em uma imagem digital?",
+      "resposta_aluno": "Pixel",
+      "explicacao": "Correto! O pixel (elemento de imagem) é a menor unidade de cor em uma imagem digital. Cada pixel pode ter uma cor específica, e a combinação de pixels forma a imagem completa. Excelente escolha!",
+      "feedback": "Você identificou corretamente o termo 'Pixel' como a menor unidade de cor. Para enriquecer, mencione que a combinação desses pixels forma a imagem completa."
+    },
+    {
+      "item_id": "TEC-0513",
+      "modelo": "phi4-mini",
+      "prompt_variant": "base",
+      "disciplina": "SUAP018548 - Arquitetura de Computadores:Bacharel em Ciência da Computação, Bacharelado, 3º Período, Turno Integral (2025)",
+      "pergunta": "Conte de 1 a 20₁₀ nas seguintes bases:a) Base 8b) Base 6c) Base 5d) Base 3",
+      "resposta_aluno": "Base 81, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21, 22, 23, 24Base 61, 2, 3, 4, 5, 10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32Base 51, 2, 3, 4, 10, 11, 12, 13, 14, 20, 21, 22, 23, 24, 30, 31, 32, 33, 34, 40Base 31, 2, 10, 11, 12, 20, 21, 22, 100, 101, 102, 110, 111, 112, 120, 121, 122, 200, 201, 202",
+      "explicacao": "Parabéns, a sequência está correta para a base 5.",
+      "feedback": "Os números em base 8 estão incorretos. Certifique-se de usar apenas dígitos 0-7. Na base 5, os números devem ser 0-4."
+    },
+    {
+      "item_id": "TEC-0579",
+      "modelo": "phi4-mini",
+      "prompt_variant": "base",
+      "disciplina": "SUAP018548 - Arquitetura de Computadores:Bacharel em Ciência da Computação, Bacharelado, 3º Período, Turno Integral (2025)",
+      "pergunta": "Por que instruções de transferência de controle são necessárias?",
+      "resposta_aluno": "Instruções de transferência de controle são fundamentais para implementar lógica de decisão, repetição e modularidade em programas, tornando a computação útil e flexível.",
+      "explicacao": "Correto! As instruções de transferência de controle são essenciais para implementar lógica de decisão e repetição em programas.",
+      "feedback": "O aluno identificou corretamente a importância das instruções de transferência de controle para lógica de decisão e repetição. Pode melhorar explicando modularidade e como isso torna a computação flexível."
+    },
+    {
+      "item_id": "TEC-0622",
+      "modelo": "phi4-mini",
+      "prompt_variant": "base",
+      "disciplina": "06262 - T04 - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Quantos bits são necessários para representar um dígito binário?",
+      "resposta_aluno": "1 bit",
+      "explicacao": "",
+      "feedback": "O aluno reconheceu corretamente que um dígito binário requer apenas um bit. Para maior precisão, explique que o dígito binário pode representar os valores 0 ou 1, usando 'Um bit é necessário para representar um dígito binário.'"
+    },
+    {
+      "item_id": "TEC-0626",
+      "modelo": "phi4-mini",
+      "prompt_variant": "base",
+      "disciplina": "Fall_24_CT-365_SE",
+      "pergunta": "State your opinion on the necessity of using design patterns. Can a good software not be developed without their use?",
+      "resposta_aluno": "Design patterns offer: 1. Simplified complex systems 2. Reusable, proven solutions 3. Improved developer communication 4. Enhanced code maintainability 5. Promotion of best practices While good software can be developed without formal patterns, they help avoid common mistakes and improve code structure. Omitting them may lead to suboptimal solutions and maintenance challenges.",
+      "explicacao": "You correctly point out that while software can be developed without design patterns, it may become difficult to modify, test, and understand as the system grows. This is a valid observation.",
+      "feedback": "O aluno identificou corretamente os benefícios dos design patterns, mas sua resposta poderia ser mais concisa. Focar na dificuldade de modificar, testar e entender o código sem design patterns seria mais alinhado com a resposta de referência."
+    },
+    {
+      "item_id": "TEC-0627",
+      "modelo": "phi4-mini",
+      "prompt_variant": "base",
+      "disciplina": "INTRODUÇÃO À INFORMÁTICA 2020.2",
+      "pergunta": "Um exemplo de sistema operacional comercial de código fechado é o Linux.",
+      "resposta_aluno": "Falso",
+      "explicacao": "",
+      "feedback": "A resposta do aluno está incorreta. O Linux é de fato um sistema operacional comercial de código aberto, não de código fechado. Revise os tipos de sistemas operacionais e seus modelos de código."
+    },
+    {
+      "item_id": "TEC-0705",
+      "modelo": "phi4-mini",
+      "prompt_variant": "hattie",
+      "disciplina": "06262 - AG - INTRODUÇÃO À INFORMÁTICA - T02",
+      "pergunta": "Descreva com suas palavras a função do processador.",
+      "resposta_aluno": "O processador é muito essencial pois ele é o cérebro do seu Pc, em resumo ele é quem faz tudo, ele quem faz os cálculos, ele quem faz todas as instruções pro seu Pc funcionar, processar seus dados, pela velocidade que seu Pc esta tendo, sem ele seu Pc não chega nem a ligar.",
+      "explicacao": "Correto! O processador é frequentemente chamado de cérebro do computador devido ao seu papel central no processamento de informações.",
+      "feedback": "O aluno explicou corretamente que o processador é essencial, comparando-o ao cérebro do PC. No entanto, poderia detalhar mais sobre o papel central do processador no processamento de informações, conforme na resposta de referência."
+    },
+    {
+      "item_id": "TEC-0722",
+      "modelo": "phi4-mini",
+      "prompt_variant": "hattie",
+      "disciplina": "06262 - AG - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Marque Verdadeiro ou Falso: A topologia lógica de uma rede descreve a disposição física dos computadores e dos cabos.",
+      "resposta_aluno": "Falso",
+      "explicacao": "Esta opção está correta . A topologia lógica de uma rede descreve o caminho que os sinais seguem e como os dispositivos se comunicam logicamente, e não a disposição física dos cabos e computadores, que é definida pela topologia física. Parabéns por identificar essa diferença importante!",
+      "feedback": "O aluno identificou corretamente que a topologia lógica não descreve a disposição física. No entanto, poderia esclarecer que a topologia física é o que descreve a disposição física dos computadores e dos cabos. Agradecemos o reconhecimento da diferença entre topologia lógica e física."
+    },
+    {
+      "item_id": "TEC-0745",
+      "modelo": "phi4-mini",
+      "prompt_variant": "hattie",
+      "disciplina": "06262 - T04 - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "O que é uma VPN (Virtual Private Network)?",
+      "resposta_aluno": "Estabelece uma conexão de rede segura (protegida) ao usar redes públicas, fazendo uso de criptografia e disfarçando a identidade do usuário online o que torna mais difícil o rastreio de terceiros nas atividades online.",
+      "explicacao": "Correto! A VPN cria uma conexão segura em redes públicas, protegendo os dados transmitidos.",
+      "feedback": "O aluno explicou corretamente o conceito de VPN, mas poderia detalhar mais sobre o uso da criptografia e o disfarce da identidade. Incentive a inclusão de mais detalhes sobre os benefícios da VPN."
+    },
+    {
+      "item_id": "TEC-0777",
+      "modelo": "phi4-mini",
+      "prompt_variant": "hattie",
+      "disciplina": "Montagem e Manutenção",
+      "pergunta": "Qual desses é um CPU",
+      "resposta_aluno": "Opção 5 - Nenhuma das anteriores",
+      "explicacao": "",
+      "feedback": "O aluno não forneceu informações suficientes. Especificar o que 'Nenhuma das anteriores' refere seria útil. Esclareça o contexto da pergunta."
+    },
+    {
+      "item_id": "TEC-0784",
+      "modelo": "phi4-mini",
+      "prompt_variant": "hattie",
+      "disciplina": "06262 - AG - INTRODUÇÃO À INFORMÁTICA - T02",
+      "pergunta": "Qual é a diferença entre um Hub e um Switch em termos de transmissão de dados em uma rede?",
+      "resposta_aluno": "Um hub envia todos os dados para todos os dispositivos conectados, já o switch envia dados apenas para o dispositivo de destino.",
+      "explicacao": "Correto! O hub realmente envia dados para todos os dispositivos conectados, sem distinção.",
+      "feedback": "O aluno identificou corretamente a diferença fundamental entre um hub e um switch. Seria benéfico detalhar mais sobre como os switches usam roteamento para direcionar dados, melhorando assim a compreensão."
+    },
+    {
+      "item_id": "TEC-0847",
+      "modelo": "phi4-mini",
+      "prompt_variant": "nicol",
+      "disciplina": "INTRODUÇÃO À INFORMÁTICA 2020.2",
+      "pergunta": "Cite 3 exemplos de softwares utilitários.",
+      "resposta_aluno": "Powerpoint, Windows, Word.",
+      "explicacao": "",
+      "feedback": "A resposta do aluno listou softwares, mas não os identificou claramente como utilitários. Por favor, forneça exemplos específicos de softwares utilitários, como Microsoft Office, Google Docs ou Adobe Acrobat."
+    },
+    {
+      "item_id": "TEC-0919",
+      "modelo": "phi4-mini",
+      "prompt_variant": "nicol",
+      "disciplina": "SUAP018548 - Arquitetura de Computadores:Bacharel em Ciência da Computação, Bacharelado, 3º Período, Turno Integral (2025)",
+      "pergunta": "Por que instruções de transferência de controle são necessárias?",
+      "resposta_aluno": "Para alterar o fluxo normal de execução de programas específicos, permitindo:Saltos condicional e incondicional;Estruturas de decisão e repetição;Chamadas e retornos de procedimento/função;Tratamentos de interrupções.",
+      "explicacao": "Perfeito! Essas estruturas são cruciais para a tomada de decisões e a execução repetitiva de tarefas em programas.",
+      "feedback": "A resposta do aluno aborda os aspectos principais das instruções de transferência de controle, mas poderia ser mais completa explicando seu impacto na tomada de decisões e na execução repetitiva de tarefas. Encorajo o aluno a explorar esses conceitos com mais detalhes."
+    },
+    {
+      "item_id": "TEC-0939",
+      "modelo": "phi4-mini",
+      "prompt_variant": "nicol",
+      "disciplina": "SUAP018548 - Arquitetura de Computadores:Bacharel em Ciência da Computação, Bacharelado, 3º Período, Turno Integral (2025)",
+      "pergunta": "Quais são os tipos comuns de operandos nos conjuntos de instruções?",
+      "resposta_aluno": "numericos, caracteres, logicos, endereços",
+      "explicacao": "Os tipos mencionados não correspondem aos tipos comuns de operandos nos conjuntos de instruções. Os tipos corretos são registradores, memória e imediatos.",
+      "feedback": "Sua resposta identificou alguns operandos, mas não os tipos comuns. Os tipos corretos são registradores, memória e imediatos. Revise os tipos de operandos nos conjuntos de instruções."
+    },
+    {
+      "item_id": "TEC-0962",
+      "modelo": "phi4-mini",
+      "prompt_variant": "nicol",
+      "disciplina": "06262 - AG - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Qual é o termo usado para descrever a menor unidade de cor em uma imagem digital?",
+      "resposta_aluno": "Pixel",
+      "explicacao": "Correto! O pixel (elemento de imagem) é a menor unidade de cor em uma imagem digital. Cada pixel pode ter uma cor específica, e a combinação de pixels forma a imagem completa. Excelente escolha!",
+      "feedback": "A resposta do aluno está correta. A resposta poderia ser mais completa explicando o papel dos pixels na formação da imagem digital."
+    },
+    {
+      "item_id": "TEC-0970",
+      "modelo": "phi4-mini",
+      "prompt_variant": "nicol",
+      "disciplina": "INTRODUÇÃO À INFORMÁTICA 2020.2",
+      "pergunta": "Um exemplo de sistema operacional comercial de código fechado é o Linux.",
+      "resposta_aluno": "Verdadeiro",
+      "explicacao": "",
+      "feedback": "Sua resposta está correta, mas forneça mais detalhes para uma resposta completa."
+    },
+    {
+      "item_id": "TEC-1016",
+      "modelo": "qwen3",
+      "prompt_variant": "base",
+      "disciplina": "SUAP018548 - Arquitetura de Computadores:Bacharel em Ciência da Computação, Bacharelado, 3º Período, Turno Integral (2025)",
+      "pergunta": "Converta os seguintes números binários em complemento de dois para decimal:a) 1101011b) 0101101",
+      "resposta_aluno": "a) -21b) 45",
+      "explicacao": "Correto! O número binário 1101011 em complemento de dois é de fato -21 em decimal.",
+      "feedback": "O aluno apresentou corretamente os valores decimais para ambos os binários. Sugerir a explicação detalhada do processo de conversão para aprimorar a compreensão."
+    },
+    {
+      "item_id": "TEC-1030",
+      "modelo": "qwen3",
+      "prompt_variant": "base",
+      "disciplina": "Introdução à Informática - SZ3",
+      "pergunta": "Descreva dois tipos de vírus visto na aula.",
+      "resposta_aluno": "Cavalo de Troia (trojan)– vírus que se camufla dentro de programas inofensivo, normalmente usado para se obter o controle do computador infectado. Vírus boot (inicialização) – Afeta como o computador inicializa, impedindo que o computador ligue de forma adequada.",
+      "explicacao": "Correto! O Cavalo de Troia é um tipo de malware que se disfarça de software legítimo para enganar o usuário e obter acesso não autorizado ao sistema.",
+      "feedback": "O aluno correto identificou o Cavalo de Troas e o Vírus Boot, mas precisou aprimorar a descrição para incluir termos técnicos como malware e explicar melhor como o vírus boot afeta o sistema."
+    },
+    {
+      "item_id": "TEC-1099",
+      "modelo": "qwen3",
+      "prompt_variant": "base",
+      "disciplina": "06262 - T04 - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Qual é a diferença entre um Hub e um Switch em termos de transmissão de dados em uma rede?",
+      "resposta_aluno": "o hub transmite informações para todos os dispositivos da rede, gerando alto tráfego, enquanto o switch é inteligente, enviando os dados apenas para o dispositivo de destino correto",
+      "explicacao": "Exatamente! Como o hub envia dados para todos, isso aumenta o tráfego desnecessário e pode causar congestionamento na rede.",
+      "feedback": "O aluno identificou corretamente que o hub transmite para todos os dispositivos e o switch direciona os dados, mas poderia detalhar como o switch evita congestionamento com maior precisão."
+    },
+    {
+      "item_id": "TEC-1113",
+      "modelo": "qwen3",
+      "prompt_variant": "base",
+      "disciplina": "06262 - T04 - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Quantos bits são necessários para representar um dígito binário?",
+      "resposta_aluno": "1 bit",
+      "explicacao": "",
+      "feedback": "O aluno apresentou corretamente que 1 bit é suficiente para representar um dígito binário. A resposta está completa e precisa."
+    },
+    {
+      "item_id": "TEC-1121",
+      "modelo": "qwen3",
+      "prompt_variant": "base",
+      "disciplina": "SUAP023479 - Sistemas Operacionais:Bacharel em Ciência da Computação, Bacharelado, 6º Período, Turno Integral (2025)",
+      "pergunta": "Um sistema operacional simples dá suporte a apenas um único diretório, mas permite que ele tenha nomes arbitrariamente longos de arquivos. Seria possível simular algo próximo de um sistema de arquivos hierárquico? Como?",
+      "resposta_aluno": "Sim, é possível simular um sistema de arquivos hierárquico mesmo com um único diretório, usando nomes de arquivos que incluam o caminho completo como parte do nome. Por exemplo, usar nomes como \"pasta1/arquivo.txt\" ou \"pasta1/pasta2/arquivo.txt\" para representar a estrutura de pastas dentro do nome do arquivo. Assim, embora o sistema veja tudo como arquivos em um único diretório, o uso de nomes com separadores permite organizar e simular hierarquia.",
+      "explicacao": "Correto! Essa é a ideia central para simular hierarquia em um sistema de diretório único, incorporando a estrutura de pastas no nome do arquivo.",
+      "feedback": "O aluno apresentou corretamente a ideia de usar nomes de arquivos com caminhos para simular hierarquia. Sugerir a inclusão de separadores específicos, como '/' para maior clareza, poderia tornar a resposta mais precisa."
+    },
+    {
+      "item_id": "TEC-1152",
+      "modelo": "qwen3",
+      "prompt_variant": "hattie",
+      "disciplina": "06262 - AG - INTRODUÇÃO À INFORMÁTICA - T02",
+      "pergunta": "Apresente 2 exemplos de dispositivos de saída com justificativa da funcionalidade.",
+      "resposta_aluno": "Monitor- Exibe na tela informações visuais que foram processadas pelo computador, podem ser textos, vídeos, imagens. Impressora- transformar informações digitais em cópias físicas por meio da impressão.",
+      "explicacao": "Correto! O monitor é um dispositivo de saída essencial para exibir informações visuais processadas pelo computador.",
+      "feedback": "O aluno identificou corretamente o monitor e a impressora, explicando suas funções de exibição e impressão. Deve incluir mais detalhes sobre como cada dispositivo converte dados digitais em formatos físicos ou visuais."
+    },
+    {
+      "item_id": "TEC-1218",
+      "modelo": "qwen3",
+      "prompt_variant": "hattie",
+      "disciplina": "06262 - T04 - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "O que é uma VPN (Virtual Private Network)?",
+      "resposta_aluno": "É o que mantém as atividades do usuário sendo confidencial, os dados permanecem protegidos, o endereço de IP oculto e criptografa a conexão entre o dispositivo e a internet, protegendo de hackers.",
+      "explicacao": "Perfeito! A VPN utiliza criptografia para criar um túnel seguro entre o dispositivo do usuário e a internet, protegendo os dados transmitidos contra interceptação.",
+      "feedback": "O aluno mencionou corretamente criptografia e proteção de dados, mas omitiu o conceito de túnel seguro. Inclua a explicação do túnel para completar a resposta."
+    },
+    {
+      "item_id": "TEC-1261",
+      "modelo": "qwen3",
+      "prompt_variant": "hattie",
+      "disciplina": "06262 - AG - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Qual é o significado de GUI?",
+      "resposta_aluno": "O gui é um sistema entre o usuário que usar por meio de elementos visuais, como botões, menus e ícones.",
+      "explicacao": "A abreviação correta é 'GUI', que significa 'Graphical User Interface' (Interface Gráfica do Usuário). A forma 'gui' está incorreta.",
+      "feedback": "O aluno mencionou corretamente elementos visuais, mas usou 'gui' em vez de 'GUI'. Deve corrigir a abreviação e especificar a definição completa."
+    },
+    {
+      "item_id": "TEC-1265",
+      "modelo": "qwen3",
+      "prompt_variant": "hattie",
+      "disciplina": "06262 - T04 - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Quantos bits são necessários para representar um dígito binário?",
+      "resposta_aluno": "1 bit",
+      "explicacao": "",
+      "feedback": "O aluno acertou que um dígito binário requer 1 bit. A resposta de referência indica que não há resposta válida para esta pergunta."
+    },
+    {
+      "item_id": "TEC-1266",
+      "modelo": "qwen3",
+      "prompt_variant": "hattie",
+      "disciplina": "SUAP018548 - Arquitetura de Computadores:Bacharel em Ciência da Computação, Bacharelado, 3º Período, Turno Integral (2025)",
+      "pergunta": "Realize as conversões de base indicadas:a) 54₈ → base 5b) 312₄ → base 7c) 520₆ → base 7d) 12212₃ → base 9",
+      "resposta_aluno": "a) 54₈ para base 5b) 312₄ para base 7c) 520₆ para base 7d) 12212₃ para base 9",
+      "explicacao": "A resposta não apresenta as conversões solicitadas, apenas repete as bases a serem convertidas.",
+      "feedback": "O aluno repetiu as bases sem realizar as conversões necessárias. Deve converter cada número para a base solicitada."
+    },
+    {
+      "item_id": "TEC-1308",
+      "modelo": "qwen3",
+      "prompt_variant": "nicol",
+      "disciplina": "INTRODUÇÃO À INFORMÁTICA 2020.2",
+      "pergunta": "Cite 3 exemplos de softwares utilitários.",
+      "resposta_aluno": "Total Video Converter, WinRAR, DAEMON Tools",
+      "explicacao": "",
+      "feedback": "Sua resposta cita três softwares utilitários corretamente. Para torná-la mais completa, inclua breves descrições de cada um."
+    },
+    {
+      "item_id": "TEC-1325",
+      "modelo": "qwen3",
+      "prompt_variant": "nicol",
+      "disciplina": "06262 - T04 - INTRODUÇÃO À INFORMÁTICA",
+      "pergunta": "Descreva com suas palavras a função do processador.",
+      "resposta_aluno": "O processador é como um cérebro, ele recebe e interpreta comandos e realiza a operação dos softwares. Também faz todas as operações necessárias para o funcionamento do computador.",
+      "explicacao": "Parcialmente correto. O processador executa instruções de software, mas a resposta é um pouco vaga. Poderia especificar que ele processa dados e executa algoritmos conforme as instruções do software.",
+      "feedback": "Sua descrição do processador como cérebro é clara e precisa. Para aprimorar, inclua como ele processa dados e executa algoritmos específicos."
+    },
+    {
+      "item_id": "TEC-1371",
+      "modelo": "qwen3",
+      "prompt_variant": "nicol",
+      "disciplina": "SUAP018004 - Química III:Técnico em Química Integrado ao Ensino Médio, Integrado, 3º Período, Turno Integral (2025)",
+      "pergunta": "Os elementos químicos na tabela periódica estão organizados em ordem crescente de quê?",
+      "resposta_aluno": "em relaçao a sua ordem de descoberta",
+      "explicacao": "A ordem da tabela periódica não se refere a sua descoberta. mas sim em ordem crescente de número atômico.",
+      "feedback": "Sua resposta menciona a ordem de descoberta, mas a tabela periódica organiza os elementos por número atômico. Para melhorar, revise o conceito de número atômico."
+    },
+    {
+      "item_id": "TEC-1413",
+      "modelo": "qwen3",
+      "prompt_variant": "nicol",
+      "disciplina": "06262 - AG - INTRODUÇÃO À INFORMÁTICA - T02",
+      "pergunta": "Qual é o significado de GUI?",
+      "resposta_aluno": "Graphical User Interface\", que em português é traduzido como Interface Gráfica do Usuário.",
+      "explicacao": "Correto! Você identificou corretamente a sigla GUI como Graphical User Interface.",
+      "feedback": "Sua resposta está correta e precisa. Para aprimorar, inclua a explicação de que GUI permite interação visual com o sistema."
+    },
+    {
+      "item_id": "TEC-1425",
+      "modelo": "qwen3",
+      "prompt_variant": "nicol",
+      "disciplina": "INTRODUÇÃO À INFORMÁTICA 2020.2",
+      "pergunta": "Um exemplo de sistema operacional comercial de código fechado é o Linux.",
+      "resposta_aluno": "Verdadeiro",
+      "explicacao": "",
+      "feedback": "Sua resposta está correta, mas o Linux é um sistema operacional de código aberto, não comercial fechado."
+    }
+  ]
+}

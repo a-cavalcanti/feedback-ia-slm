@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Avaliação de feedback gerado por IA</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>Avaliação de qualidade do feedback (SLM)</h1>
+        <p>
+          Avalie o <strong>texto de feedback automatizado</strong>, não a resposta do aluno. Escala
+          Likert 1–3 em cinco dimensões de conteúdo. Amostra: <span id="total-items">…</span> itens.
+        </p>
+      </header>
+
+      <section id="setup-screen" class="card">
+        <h2>Identificação</h2>
+        <p class="instructions">
+          Use o código fornecido pela equipe da pesquisa (pode ser anônimo, ex.: <em>PROF-03</em>).
+        </p>
+        <label for="avaliador_id">Código do avaliador</label>
+        <input type="text" id="avaliador_id" name="avaliador_id" autocomplete="username" />
+        <p id="setup-error" class="status err" role="alert"></p>
+        <div class="actions">
+          <button type="button" class="primary" id="btn-start">Iniciar avaliação</button>
+        </div>
+        <div class="instructions">
+          <ul>
+            <li>Leia pergunta, resposta do aluno e gabarito antes do feedback.</li>
+            <li>Os scores das IAs não são exibidos — avaliação cega.</li>
+            <li>O progresso é salvo no navegador; cada item enviado vai para a planilha.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="app-screen" hidden>
+        <span id="progress-label">0 de 0 itens enviados</span>
+        <div class="progress-bar" aria-hidden="true">
+          <div id="progress-fill"></div>
+        </div>
+
+        <div class="card">
+          <h2>Item <span id="item-id-label"></span></h2>
+          <p class="meta" id="item-meta"></p>
+          <h2>Pergunta</h2>
+          <div class="body-text" id="ctx-pergunta"></div>
+        </div>
+
+        <div class="card">
+          <h2>Resposta do aluno</h2>
+          <div class="body-text" id="ctx-resposta"></div>
+        </div>
+
+        <div class="card">
+          <h2>Gabarito / contexto (explicação)</h2>
+          <div class="body-text" id="ctx-explicacao"></div>
+        </div>
+
+        <div class="card feedback-box">
+          <h2>Feedback gerado pelo modelo (SLM)</h2>
+          <div class="body-text" id="ctx-feedback"></div>
+        </div>
+
+        <form id="rating-form" class="card">
+          <fieldset>
+            <legend>Dimensões de conteúdo (1 = baixo · 3 = alto)</legend>
+            <div id="dimensions"></div>
+          </fieldset>
+          <label for="comentario_opcional">
+            Comentário opcional (ex.: nível de detalhe na especificidade)
+          </label>
+          <textarea
+            id="comentario_opcional"
+            name="comentario_opcional"
+            maxlength="2000"
+            placeholder="Opcional"
+          ></textarea>
+          <div class="actions">
+            <button type="button" class="secondary" id="btn-prev">Anterior</button>
+            <button type="button" class="secondary" id="btn-skip">Próximo (sem enviar)</button>
+            <button type="submit" class="primary" id="btn-submit">Enviar e continuar</button>
+          </div>
+          <p id="submit-status" class="status" role="status"></p>
+        </form>
+      </section>
+
+      <section id="done-screen" class="card" hidden>
+        <h2>Concluído</h2>
+        <p>Obrigado. Todos os itens desta amostra foram enviados (ou já estavam registrados).</p>
+        <p class="instructions">
+          Se precisar corrigir alguma avaliação, contate a equipe da pesquisa com o código do item.
+        </p>
+      </section>
+    </div>
+
+    <script src="assets/config.example.js"></script>
+    <script src="assets/config.js" onerror="console.warn('config.js ausente; use config.example.js')"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

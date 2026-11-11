@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Avaliação professores (export de respostas coletadas)
+dados-professores/respostas_professores.csv
+# docs/assets/config.js — em repo público, NÃO commitar (token exposto no JS do navegador)
