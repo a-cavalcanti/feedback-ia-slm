@@ -34,10 +34,32 @@ header h1 {
   margin: 0 0 0.35rem;
 }
 
-header p {
+header .tagline {
   margin: 0;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+.intro-experimento h2 {
+  font-size: 1rem;
+  margin: 0 0 0.5rem;
+  color: var(--text);
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.intro-experimento h2:not(:first-child) {
+  margin-top: 1.15rem;
+}
+
+.intro-experimento p {
+  margin: 0 0 0.75rem;
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.intro-experimento p:last-child {
+  margin-bottom: 0;
 }
 
 .progress-bar {
